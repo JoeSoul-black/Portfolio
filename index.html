@@ -585,10 +585,7 @@
       font-size: 0.875rem;
       color: var(--muted-foreground);
       margin-bottom: 1rem;
-      display: -webkit-box;
-      -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
+      /* Removed line clamping so full text shows */
     }
     
     .project-metrics {
@@ -652,20 +649,7 @@
       margin-bottom: 1rem;
     }
     
-    .project-link {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      font-size: 0.875rem;
-      font-weight: 500;
-      color: var(--primary);
-      text-decoration: none;
-      transition: gap 0.3s ease;
-    }
-    
-    .project-link:hover {
-      gap: 0.75rem;
-    }
+    /* Removed .project-link class styles as it is no longer used */
     
     /* ===== CONTACT SECTION ===== */
     .contact {
@@ -1063,11 +1047,6 @@
             <span class="badge badge-secondary">Segmentação</span>
             <span class="badge badge-secondary">E-mail Marketing</span>
           </div>
-          
-          <a href="#" class="project-link">
-            Ver detalhes
-            <i data-lucide="arrow-right"></i>
-          </a>
         </div>
         
         <div class="project-card glass-card animate-fade-in" style="animation-delay: 0.15s">
@@ -1109,11 +1088,6 @@
             <span class="badge badge-secondary">Pipedrive</span>
             <span class="badge badge-secondary">WebHooks</span>
           </div>
-          
-          <a href="#" class="project-link">
-            Ver detalhes
-            <i data-lucide="arrow-right"></i>
-          </a>
         </div>
         
         <div class="project-card glass-card animate-fade-in" style="animation-delay: 0.3s">
@@ -1155,11 +1129,6 @@
             <span class="badge badge-secondary">WebHooks</span>
             <span class="badge badge-secondary">APIs REST</span>
           </div>
-          
-          <a href="#" class="project-link">
-            Ver detalhes
-            <i data-lucide="arrow-right"></i>
-          </a>
         </div>
         
         <div class="project-card glass-card animate-fade-in" style="animation-delay: 0.45s">
@@ -1201,11 +1170,6 @@
             <span class="badge badge-secondary">Eventos</span>
             <span class="badge badge-secondary">E-mail</span>
           </div>
-          
-          <a href="#" class="project-link">
-            Ver detalhes
-            <i data-lucide="arrow-right"></i>
-          </a>
         </div>
         
         <div class="project-card glass-card animate-fade-in" style="animation-delay: 0.6s">
@@ -1247,11 +1211,6 @@
             <span class="badge badge-secondary">Google Ads</span>
             <span class="badge badge-secondary">ActiveCampaign</span>
           </div>
-          
-          <a href="#" class="project-link">
-            Ver detalhes
-            <i data-lucide="arrow-right"></i>
-          </a>
         </div>
         
         <div class="project-card glass-card animate-fade-in" style="animation-delay: 0.75s">
@@ -1293,11 +1252,6 @@
             <span class="badge badge-secondary">Deduplicação</span>
             <span class="badge badge-secondary">Automação</span>
           </div>
-          
-          <a href="#" class="project-link">
-            Ver detalhes
-            <i data-lucide="arrow-right"></i>
-          </a>
         </div>
       </div>
     </div>
